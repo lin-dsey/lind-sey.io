@@ -26,6 +26,12 @@
         src: url('Fixedsys500c.eot');
         src: local('☺'), url('Fixedsys500c.woff') format('woff'), url('Fixedsys500c.ttf') format('truetype'), url('Fixedsys500c.svg') format('svg');
 }
+      .wrapper {
+        height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        perspective: 10px;
+      }
 </style>
     <link href="bootstrap-responsive.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -34,7 +40,7 @@
     <![endif]-->
   </head>
   <body>
-
+<div class="wrapper">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -128,6 +134,7 @@
     <script src="bootstrap-button.js"></script>
     <script src="bootstrap-collapse.js"></script>
     <script src="bootstrap-carousel.js"></script>
-    <script src="bootstrap-typeahead.js"></script>
+  <script src="bootstrap-typeahead.js"></script>
+    </div>
   </body>
 </html>
